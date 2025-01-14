@@ -39,6 +39,10 @@ var getIndex = function (reader) {
  That is to say, if we have subrange(firstLeft, firstRight) and subrange(secondLeft, secondRight), 
  then 'firstRight' ==  'secondLeft'.
  */
+/**
+ * @param {number} length
+ * @return {number}
+ */
 function balanceIndexForRangeWithOddLength(length) {
     return (length % 2) ^ 1;
 }
