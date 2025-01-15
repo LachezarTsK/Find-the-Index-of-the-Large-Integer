@@ -9,7 +9,7 @@ There are two approaches for this problem in regard to how the ranges of elem
 
 2.  Always divide the largest even number of elements into two subranges, i.e. if the entire range has an odd number of elements, then the last element is not included in the current division into two subranges. 
 
-The solution presented here selects the first approach. The benefit of choosing the first approach is that if the searched element is in the middle,and the range that is being divided is an odd number, then we immediately arrive at the solution. 
+The solution presented here selects the first approach. The benefit of choosing the first approach is that if the searched element is in the middle and the range that is being divided has an odd number of elements, then we immediately arrive at the solution. 
 
 On the other hand, the second approach always iterates and narrows down the range, no matter what, until there is only one element in the range.
 
