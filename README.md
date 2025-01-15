@@ -17,7 +17,7 @@ On the other hand, the second approach always iterates and narrows down the ran
 Examples for the first approach, when a range with an odd length is encountered and the searched element is in the middle.
 
 Example 1:
-At start, there are 100 001 elements.
+At start, there are 100 001 elements.<br/>
 100 000 elements to the left | searched element | 100 000 elements to the right 
 There are no iterations in the loop that divides the range.
 
