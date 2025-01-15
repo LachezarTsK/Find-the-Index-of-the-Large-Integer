@@ -7,7 +7,7 @@ There are two approaches for this problem in regard to how the ranges of elem
 
 1.  Always divide the entire range into two subranges and overlap the middle element in case that the range has an odd number of elements.
 
-2.  Always divide the biggest even number of elements into two subranges, i.e. if the entire range has an odd number of elements, then the last element is not included in the current division into two subranges. 
+2.  Always divide the largest even number of elements into two subranges, i.e. if the entire range has an odd number of elements, then the last element is not included in the current division into two subranges. 
 
 The solution presented here selects the first approach. The benefit of choosing the first approach is that if the searched element is in the middle,and the range that is being divided is an odd number, then we immediately arrive at the solution. 
 
