@@ -5,7 +5,7 @@ Challenge at LeetCode.com. Tags: Binary Search, Interactive.
 
 There are two approaches for this problem in regard to how the ranges of elements are divided into two subranges.
 
-1.  Always divide the entire range into two subranges and overlap the middle element in case that the range is an odd number.
+1.  Always divide the entire range into two subranges and overlap the middle element in case that the range has an odd number of elements.
 
 2.  Always divide the biggest even number of elements into two subranges, i.e. if the entire range is an odd number, then the last element is not included in the current 
     division into two subranges. 
