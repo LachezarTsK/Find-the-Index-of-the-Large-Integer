@@ -16,12 +16,12 @@ On the other hand, the second approach always iterates and narrows down the ran
 Examples for the first approach, when a range with an odd length is encountered and the searched element is in the middle.
 
 Example 1:<br/>
-At start, there are 100 001 elements.<br/>
+At start, there are 200 001 elements.<br/>
 100 000 elements to the left | searched element | 100 000 elements to the right<br/>
 There are no iterations in the loop that divides the range.
 
 Example 2:<br/>
-At start, there are 100 002 elements.<br/>
+At start, there are 200 002 elements.<br/>
 100 001 elements to the left | 100 001 elements to the right<br/>
 After one iteration, we have:<br/>
 50 000 elements to the left | searched element | 50 000 to the right<br/>
