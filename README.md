@@ -24,5 +24,5 @@ Example 2:<br/>
 At start, there are 100 002 elements.<br/>
 100 001 elements to the left | 100 001 elements to the right<br/>
 After one iteration, we have:<br/>
-50 000 elements to the left | searched element | 50 000 to the right<br/> 
+50 000 elements to the left | searched element | 50 000 to the right<br/>
 There is only one iteration in the loop that divides the range.
